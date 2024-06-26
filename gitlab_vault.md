@@ -76,9 +76,9 @@ Success! Data written to: auth/jwt/config
 
 Create a policy
 
-:warning: The policies applies only on Vault folders
+> :warning: The policies applies only on Vault folders
 
-![vault Folders](__res/JWTVaultGitlab.png)
+![vault Folders](__res/vaultFolders.png)
 
 ```bash
 $ vault policy write poc-vault - <<EOF
