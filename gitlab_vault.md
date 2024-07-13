@@ -41,7 +41,7 @@ Example of token provided by Gitlab
   "runner_environment": "self-hosted",
   "sha": "edac6ds25bd7c523347f18b48db5f41115a40c4d",
   "project_visibility": "internal",
-  "ci_config_ref_uri": "gitlab.com/ns/poc-vault//.gitlab-ci.yml@refs/heads/main",
+  "ci_config_ref_uri": "gitlab.com/ns/poc-vault/.gitlab-ci.yml@refs/heads/main",
   "ci_config_sha": "edac6f825bd7a523357a18b48dbef48325940c4d",
   "jti": "06636c24-a820-4509-a18c-9796da061f94",
   "iss": "https://gitlab.com",
