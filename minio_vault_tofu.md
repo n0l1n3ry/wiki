@@ -6,6 +6,7 @@ MinIO SSE uses the MinIO Key Encryption Service (KES) and an external Key Manage
 
 This howto shows how to setup a KES server that uses Vault’s K/V engine as a persistent and secure key store.
 
+![KES diagram](__res/IMG_0520.jpeg "KES diagram")
 ```bash
 $ cd && mkdir opentofu
 $ cd opentofu
