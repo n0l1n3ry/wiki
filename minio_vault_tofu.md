@@ -1,4 +1,10 @@
-# OpenTofu - Minio - Hashicorp Vault
+# Minio - Hashicorp Vault - OpenTofu
+
+MinIO Server-Side Encryption (SSE) protects objects as part of write operations, allowing clients to take advantage of server processing power to secure objects at the storage layer (encryption-at-rest). SSE also provides key functionality to regulatory and compliance requirements around secure locking and erasure.
+
+MinIO SSE uses the MinIO Key Encryption Service (KES) and an external Key Management Service (KMS) for performing secured cryptographic operations at scale. MinIO also supports client-managed key management, where the application takes full responsibility for creating and managing encryption keys for use with MinIO SSE.
+
+This howto shows how to setup a KES server that uses Vault’s K/V engine as a persistent and secure key store.
 
 ```bash
 $ cd && mkdir opentofu
