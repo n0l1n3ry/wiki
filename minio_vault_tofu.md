@@ -4,7 +4,7 @@ MinIO Server-Side Encryption (SSE) protects objects as part of write operations,
 
 MinIO SSE uses the MinIO Key Encryption Service (KES) and an external Key Management Service (KMS) for performing secured cryptographic operations at scale. MinIO also supports client-managed key management, where the application takes full responsibility for creating and managing encryption keys for use with MinIO SSE.
 
-This howto shows how to setup a KES server that uses Vault’s K/V engine as a persistent and secure key store.
+This tutorial shows how to setup a KES server that uses Vault’s K/V engine as a persistent and secure key store.
 
 ![KES diagram](__res/KES_diagram.jpg "KES diagram")
 ```bash
